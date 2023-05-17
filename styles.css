@@ -1,0 +1,39 @@
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.one-one {
+    display: flex;
+}
+
+.one-two {
+    display: flex;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-two {
+    display: flex;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+}
+
+.four-one {
+    display: flex;
+}
+
+.four-one-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.five {
+    display: flex;
+}
