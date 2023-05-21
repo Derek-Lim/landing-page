@@ -1,10 +1,4 @@
-html, body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    flex-direction: column;
-    justify-content: space-between;
+* {
     font-family: sans-serif;
 }
 
@@ -22,7 +16,7 @@ html, body {
 .one-one-one {
     color: #f9faf8;
     font-size: 24px;
-
+    margin-left: 580px;
 }
 
 .one-one-two {
@@ -30,34 +24,48 @@ html, body {
     color: lightgrey;
     font-size: 18px;
     list-style: none;
+    margin-right: 580px;
+    gap: 25px;
 }
 
 .one-two {
     display: flex;
     justify-content: center;
+    padding: 100px;
+    gap: 50px;
 }
 
 .one-two-one-one {
     color: white;
     font-size: 48px;
     font-weight: bolder;
+    width: 450px;
 }
 
 .one-two-one-two {
     color: lightgrey;
     font-size: 18px;
+    width: 450px;
 }
 
 .one-two-one-three {
     color: white;
     background-color: #3882f6;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 .one-two-two {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: grey;
     color: lightgrey;
     font-size: 18px;
+    height: 200px;
+    width: 450px;
+    margin-top: 50px;
 }
 
 .two {
@@ -72,6 +80,7 @@ html, body {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding: 100px;
 }
 
 .two-two {
@@ -86,15 +95,17 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .two-two-one-one,
 .two-two-two-one,
 .two-two-three-one,
 .two-two-four-one {
-    border: 1px solid #3882f6;
-    height: 10px;
-    width: 10px;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
 }
 
 .two-two-one-two,
@@ -102,6 +113,9 @@ html, body {
 .two-two-three-two,
 .two-two-four-two {
     color: grey;
+    height: 150px;
+    width: 150px;
+    padding: 25px;
 }
 
 .three {
@@ -110,6 +124,7 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
+    padding: 100px 600px;
 }
 
 .three-one {
@@ -120,6 +135,7 @@ html, body {
 
 .three-two {
     font-weight: bold;
+    align-self: flex-end;
 }
 
 .four {
@@ -131,11 +147,13 @@ html, body {
     display: flex;
     justify-content: center;
     background-color: #3882f6;
+    margin: 50px;
 }
 
 .four-one-one {
     display: flex;
     flex-direction: column;
+    padding: 50px 100px;
 }
 
 .four-one-one-one {
@@ -150,16 +168,20 @@ html, body {
 .four-one-two {
     display: flex;
     align-items: center;
+    padding: 50px 100px;
 }
 .four-one-two-one {
     background-color: #3882f6;
     color: white;
     border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 5px;
 }
 .five {
     display: flex;
     justify-content: center;
     align-items: center;
     color: lightgrey;
-    background-color: #1f2937
+    background-color: #1f2937;
+    padding: 25px;
 }
